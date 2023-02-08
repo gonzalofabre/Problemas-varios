@@ -32,6 +32,10 @@ if(iceCreamExpensive.length == 1) {
 }
 alert(message);
 
+let change = money - iceCreamExpensive[0].price
+
+alert(`Your change is ${change} `)
+
 
 
 
